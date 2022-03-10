@@ -1,0 +1,30 @@
+GET http://localhost:5218/api/Samurais
+
+###
+
+POST http://localhost:5218/api/Samurais
+content-type: application/json
+
+{
+    "Name":"JulieWasHere",
+    "Horse":
+    {
+        "Name":"WhiteHorse"
+    }
+}
+
+###
+
+PUT http://localhost:5218/api/Samurais/65
+content-type : application/json
+
+{
+    "id" : 65,
+    "name": "MissJulie",
+    "Horse":
+    {
+        "Name":"WhiteHorse"
+    }    
+}
+
+DELETE http://localhost:5218/api/Samurais/64
